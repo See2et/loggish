@@ -4,6 +4,46 @@
     "https://deno.land/std@0.177.0/fmt/colors.ts": "938c5d44d889fb82eff6c358bea8baa7e85950a16c9f6dae3ec3a7a729164471",
     "https://deno.land/std@0.177.0/testing/_diff.ts": "1a3c044aedf77647d6cac86b798c6417603361b66b54c53331b312caeb447aea",
     "https://deno.land/std@0.177.0/testing/_format.ts": "a69126e8a469009adf4cf2a50af889aca364c349797e63174884a52ff75cf4c7",
-    "https://deno.land/std@0.177.0/testing/asserts.ts": "984ab0bfb3faeed92ffaa3a6b06536c66811185328c5dd146257c702c41b01ab"
+    "https://deno.land/std@0.177.0/testing/asserts.ts": "984ab0bfb3faeed92ffaa3a6b06536c66811185328c5dd146257c702c41b01ab",
+    "https://esm.sh/peggy@3.0.0": "15cf5d54ad0739234fb1fa71a19b6afe78e05921562cfdd22cab7f3463ef87e5",
+    "https://esm.sh/v110/peggy@3.0.0/deno/peggy.js": "5720c2242aeafde15e248128a990da5ae66bb15c877121989992b15e9e25e1f0",
+    "https://esm.sh/v110/peggy@3.0.0/lib/peg.d.ts": "2ca271a097e5561bd41ef947fb64f4a106e2abe4d72a7296eaedaaea8d25c273",
+    "https://esm.sh/v110/source-map-generator@0.8.0/deno/source-map-generator.js": "40267d35d2f2e3bb578a64475fc12900fad790e369be736e75b6fe71c32ab419",
+    "https://esm.sh/v110/source-map-generator@0.8.0/source-map.d.ts": "a18360c6928d4d17f5315609558a6d8fe9b30bd129f7f4730a20a9e0a97e78ce"
+  },
+  "npm": {
+    "specifiers": {
+      "peggy": "peggy@3.0.0",
+      "peggy@2.0.1": "peggy@2.0.1",
+      "peggy@3.0.0": "peggy@3.0.0"
+    },
+    "packages": {
+      "commander@10.0.0": {
+        "integrity": "sha512-zS5PnTI22FIRM6ylNW8G4Ap0IEOyk62fhLSD0+uHRT9McRCLGpkVNvao4bjimpK/GShynyQkFFxHhwMcETmduA==",
+        "dependencies": {}
+      },
+      "commander@9.5.0": {
+        "integrity": "sha512-KRs7WVDKg86PWiuAqhDrAQnTXZKraVcCc6vFdL14qrZ/DcWwuRo7VoiYXalXO7S5GKpqYiVEwCbgFDfxNHKJBQ==",
+        "dependencies": {}
+      },
+      "peggy@2.0.1": {
+        "integrity": "sha512-mBqfmdUAOVn7RILpXTbcRBhLfTR4Go0SresSnivGDdRylBOyVFJncFiVyCNNpPWq8HmgeRleXHs/Go4o8kQVXA==",
+        "dependencies": {
+          "commander": "commander@9.5.0",
+          "source-map-generator": "source-map-generator@0.8.0"
+        }
+      },
+      "peggy@3.0.0": {
+        "integrity": "sha512-Z4wzPw+OhPO1X2nVM3rt4Uprn79lIV9AlkOar1JC+veI6q7f+X92k1pI+HBhkxncz5LCwvei+Xl1+oKjdlcxiQ==",
+        "dependencies": {
+          "commander": "commander@10.0.0",
+          "source-map-generator": "source-map-generator@0.8.0"
+        }
+      },
+      "source-map-generator@0.8.0": {
+        "integrity": "sha512-psgxdGMwl5MZM9S3FWee4EgsEaIjahYV5AzGnwUvPhWeITz/j6rKpysQHlQ4USdxvINlb8lKfWGIXwfkrgtqkA==",
+        "dependencies": {}
+      }
+    }
   }
 }
